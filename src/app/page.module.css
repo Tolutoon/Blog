@@ -9,22 +9,22 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  animation: move 3s infinite ease alternate;
+
 }
 
 .img {
   width: 100%;
   height: 500px;
-  object-fit: cover;
-
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
 }
 
 @keyframes move {
   from {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
   to {
-    transform: translateY(0px) scale(1.00);  
+    transform: translateY(10px);  
   }
 }
 
