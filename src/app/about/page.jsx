@@ -46,7 +46,7 @@ const About = () => {
         </div>
         <div className={styles.item}>
           <h1 className={styles.title}>Who are we?</h1>
-          <p>
+          <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           eligendi eius aliquam quod voluptatem, quia praesentium distinctio
           maiores! Repellendus et officiis, expedita quam assumenda qui tenetur
@@ -54,7 +54,7 @@ const About = () => {
           ullam at, nisi necessitatibus, voluptas nam optio explicabo iure vero
           laborum! 
         </p>
-        <Button url='/contact' text='Read More'/>
+        <Button url='/contact' text='Contact'/>
         </div>
       </div>
     </div>
